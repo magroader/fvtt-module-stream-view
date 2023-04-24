@@ -1,17 +1,15 @@
 {
   "id": "stream-view",
-  "name": "stream-view",
   "title": "Stream View",
   "description": "This module provides a minimal UI view with automated camera work, ideal for streaming or recording games.",
   "authors": [
     {
       "name": "sPOiDar",
-      "url": "https://github.com/sPOiDar"
+      "url": "https://github.com/sPOiDar",
+      "flags": {}
     }
   ],
   "version": "1.3.0",
-  "minimumCoreVersion": "10",
-  "compatibleCoreVersion": "10",
   "compatibility": {
     "minimum": "10",
     "verified": "10",
@@ -27,7 +25,8 @@
     {
       "lang": "en",
       "name": "English",
-      "path": "lang/en.json"
+      "path": "lang/en.json",
+      "flags": {}
     }
   ],
   "relationships": {
@@ -37,14 +36,16 @@
         "compatibility": {
           "minimum": "1.12.7.2",
           "verified": "1.12.7.2"
-        }
+        },
+        "type": "module"
       },
       {
         "id": "socketlib",
         "compatibility": {
           "minimum": "1.0.10",
           "verified": "1.0.10"
-        }
+        },
+        "type": "module"
       }
     ]
   },
